@@ -1,0 +1,13 @@
+[tool.ruff]
+# Set the maximum line length to standard PEP8/Black conventions
+line-length = 88
+# Assume Python 3.10+
+target-version = "py310"
+
+[tool.ruff.lint]
+# Enable Pyflakes (F), pycodestyle (E), isort (I), and pyupgrade (UP)
+select = ["E", "F", "I", "UP"]
+
+[tool.ruff.format]
+# Use standard double quotes for strings
+quote-style = "double"
